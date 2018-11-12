@@ -1,0 +1,6 @@
+.v-enter-actvie, .v-leave-active {
+    transition: opcity 1s;
+}
+.v-enter, .v-leave-to {
+    opacity: 0;
+}
