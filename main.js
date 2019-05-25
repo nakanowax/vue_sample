@@ -32,7 +32,26 @@ var app = new Vue({
     data: {
         message: "Hello Vue.js",
         list:["りんご", "バナナ", "いちご"],
-        show: true
+        show: true,
+        item: [
+            {
+                id:1,
+                src: 'hoge.jpg',
+                alt: 'ほげ',
+                width: 200,
+                height: 100
+            }
+        ],
+        classObj: {
+            child: true,
+            'is-active': false
+        },
+        styleObj: {
+            color: 'red',
+            backgroundColor: 'lightgray'
+        },
+        radius: 50,
+        ok: false
     },
     methods: {
         handleClick: function(e) {
